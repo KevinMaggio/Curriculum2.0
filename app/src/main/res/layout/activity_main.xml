@@ -166,13 +166,49 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_lenguajes"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:layout_margin="15dp"
+        android:orientation="horizontal"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        tools:layout_editor_absoluteX="-14dp"
-        tools:listitem="@layout/iitem_lenguajes"
-        android:orientation="horizontal"/>
+        tools:listitem="@layout/iitem_lenguajes" />
+
+    <TextView
+        android:id="@+id/tv_tecnologias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="TECNOLOGIAS"
+        android:textColor="#98989F"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv_lenguajes" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_tecnologias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tecnologias"
+        tools:listitem="@layout/item_tecnologias" />
+
+    <ImageButton
+        android:id="@+id/bt_linkedin"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/linkedin"
+        android:scaleType="fitXY"
+        android:layout_margin="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv_tecnologias" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

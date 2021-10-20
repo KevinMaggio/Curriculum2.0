@@ -6,16 +6,15 @@
 
 
     <TextView
-        android:id="@+id/tv_item_lenguaje"
-        android:layout_width="100dp"
+        android:id="@+id/tv_item_tecnologias"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#0A84FF"
         android:textStyle="bold"
         android:textSize="17sp"
         android:layout_margin="10dp"
-        android:text="Java"
+        android:text="Retrofit2"
         android:textAlignment="center"
         android:background="@drawable/item_circle"/>
-
 
 </LinearLayout>
