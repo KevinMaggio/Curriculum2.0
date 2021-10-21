@@ -7,10 +7,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.curriculum20.R
 import com.example.curriculum20.databinding.IitemLenguajesBinding
 
-class LenguajesAdapter (val listaLenguajes:List<String>):RecyclerView.Adapter<LenguajesHolder>() {
+class LenguajesAdapter(val listaLenguajes: List<String>) : RecyclerView.Adapter<LenguajesHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LenguajesHolder {
         return LenguajesHolder(
-            LayoutInflater.from(parent.context).inflate(R.layout.iitem_lenguajes,parent,false)
+            LayoutInflater.from(parent.context).inflate(R.layout.iitem_lenguajes, parent, false)
         )
     }
 
@@ -23,12 +23,12 @@ class LenguajesAdapter (val listaLenguajes:List<String>):RecyclerView.Adapter<Le
     }
 }
 
-class LenguajesHolder(view:View) : RecyclerView.ViewHolder(view) {
+class LenguajesHolder(view: View) : RecyclerView.ViewHolder(view) {
 
     private var binding = IitemLenguajesBinding.bind(view)
 
-    fun render(lenguaje:String){
-        binding.tvItemLenguaje.text= lenguaje
+    fun render(lenguaje: String) {
+        binding.tvItemLenguaje.text = lenguaje
     }
 
 }

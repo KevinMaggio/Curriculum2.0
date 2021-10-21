@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Curriculum2.0</string>
+    <!-- Strings used for menu -->
+    <string name="app_name">Kevin Maggio</string>
+    <string name="title_curriculum">Curriculum</string>
+    <string name="sobre_mi">Sobre Mi</string>
+    <string name="title_galeria">Galería de proyectos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings used for menu -->
+
 </resources>

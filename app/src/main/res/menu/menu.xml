@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_curriculum"
+        android:title="Curriculum"/>
+    <item
+        android:id="@+id/nav_sobre_mi"
+        android:title="@string/sobre_mi"/>
+    <item
+        android:id="@+id/nav_galeria"
+        android:title="@string/title_galeria"/>
+</menu>

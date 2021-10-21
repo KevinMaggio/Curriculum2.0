@@ -7,10 +7,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.curriculum20.R
 import com.example.curriculum20.databinding.ItemTecnologiasBinding
 
-class TecnologiasAdapter(private val listaTecnologias:List<String>):RecyclerView.Adapter<TecnologiasHolder>() {
+class TecnologiasAdapter(private val listaTecnologias: List<String>) :
+    RecyclerView.Adapter<TecnologiasHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TecnologiasHolder {
         return TecnologiasHolder(
-            LayoutInflater.from(parent.context).inflate(R.layout.item_tecnologias,parent,false)
+            LayoutInflater.from(parent.context).inflate(R.layout.item_tecnologias, parent, false)
         )
     }
 
@@ -23,10 +24,10 @@ class TecnologiasAdapter(private val listaTecnologias:List<String>):RecyclerView
     }
 }
 
-class TecnologiasHolder(view: View):RecyclerView.ViewHolder(view){
-    private var binding=ItemTecnologiasBinding.bind(view)
+class TecnologiasHolder(view: View) : RecyclerView.ViewHolder(view) {
+    private var binding = ItemTecnologiasBinding.bind(view)
 
-    fun render(tecnologias:String){
-        binding.tvItemTecnologias.text=tecnologias
+    fun render(tecnologias: String) {
+        binding.tvItemTecnologias.text = tecnologias
     }
 }
