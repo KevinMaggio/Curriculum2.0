@@ -8,12 +8,12 @@
     <fragment
         android:id="@+id/nav_galeria"
         android:name="com.example.curriculum20.UI.Galeria"
-        android:label="fragment_galeria"
+        android:label="Galeria De Proyectos"
         tools:layout="@layout/fragment_galeria" />
     <fragment
         android:id="@+id/nav_sobre_mi"
         android:name="com.example.curriculum20.UI.SobreMi"
-        android:label="fragment_sobre_mi"
+        android:label="Sobre Mi"
         tools:layout="@layout/fragment_sobre_mi" />
     <activity
         android:id="@+id/nav_main"
