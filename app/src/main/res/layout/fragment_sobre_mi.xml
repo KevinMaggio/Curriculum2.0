@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:background="@color/black">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -156,7 +156,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center|top"
                 android:padding="10dp"
-                android:text="Marzo 2009 - Diciembre 2012"
+                android:text="Marzo 2007 - Diciembre 2010"
                 android:textColor="@color/white" />
 
 
