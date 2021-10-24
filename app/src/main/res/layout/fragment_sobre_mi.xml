@@ -79,17 +79,21 @@
                 android:textColor="#98989F"
                 android:textStyle="italic" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="30dp"
-                android:text="sobre mi"
-                android:textColor="#98989F"
-                android:textSize="22dp"
-                android:textStyle="bold" />
+
 
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_sobre_mi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sobre mi"
+            android:textColor="#98989F"
+            android:layout_marginLeft="30dp"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/gl_0.25" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tf_alkemy"
@@ -99,7 +103,7 @@
             android:background="@drawable/circle_radius"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/gl_0.25">
+            app:layout_constraintTop_toBottomOf="@+id/tv_sobre_mi">
 
 
             <TextView

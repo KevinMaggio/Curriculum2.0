@@ -30,5 +30,4 @@ class LenguajesHolder(view: View) : RecyclerView.ViewHolder(view) {
     fun render(lenguaje: String) {
         binding.tvItemLenguaje.text = lenguaje
     }
-
 }

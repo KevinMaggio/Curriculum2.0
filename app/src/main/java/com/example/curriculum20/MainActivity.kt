@@ -23,5 +23,4 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, HomeMenu::class.java))
         }
     }
-
 }
