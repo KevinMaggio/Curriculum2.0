@@ -1,6 +1,5 @@
-package com.example.curriculum20.UI
+package com.example.curriculum20.view
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.findNavController
@@ -27,7 +26,6 @@ class HomeMenu : AppCompatActivity() {
                 R.id.nav_galeria,
                 R.id.nav_curriculum,
                 R.id.nav_sobre_mi
-
             ),
             binding.drawerLayout
         )
@@ -37,6 +35,7 @@ class HomeMenu : AppCompatActivity() {
             // crear un envio de mail
         }
     }
+
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()

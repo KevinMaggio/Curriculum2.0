@@ -1,4 +1,4 @@
-package com.example.curriculum20.adapter
+package com.example.curriculum20.model.adapter
 
 import android.view.LayoutInflater
 import android.view.View

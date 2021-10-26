@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -19,13 +18,13 @@
         <com.google.android.material.navigation.NavigationView
             android:id="@+id/nav_view"
             android:layout_width="match_parent"
-            android:background="@color/black"
-            app:itemTextColor="#98989F"
             android:layout_height="match_parent"
             android:layout_gravity="start"
+            android:background="@color/black"
             android:paddingLeft="10dp"
             app:headerLayout="@layout/header_menu"
             app:itemIconTint="#646565"
+            app:itemTextColor="#98989F"
             app:menu="@menu/menu">
 
             <Button
@@ -34,8 +33,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|center"
                 android:layout_margin="20dp"
-                android:text="Contactame"
                 android:background="@drawable/bt_circle"
+                android:text="@string/contactame"
                 android:textColor="@color/white">
 
             </Button>

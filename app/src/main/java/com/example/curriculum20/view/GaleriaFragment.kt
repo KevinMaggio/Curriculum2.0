@@ -1,4 +1,4 @@
-package com.example.curriculum20.UI
+package com.example.curriculum20.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,17 +6,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.example.curriculum20.R
-import com.example.curriculum20.adapter.GaleriaAdapter
-import com.example.curriculum20.data.Proyectos
+import com.example.curriculum20.model.adapter.GaleriaAdapter
+import com.example.curriculum20.model.entity.Proyectos
 import com.example.curriculum20.databinding.FragmentGaleriaBinding
 
 
 class Galeria : Fragment() {
 
     private lateinit var binding: FragmentGaleriaBinding
-    private val listaProyectos=Proyectos()
+    private val listaProyectos= Proyectos()
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

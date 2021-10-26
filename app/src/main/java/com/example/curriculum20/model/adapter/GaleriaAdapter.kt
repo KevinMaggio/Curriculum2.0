@@ -1,11 +1,10 @@
-package com.example.curriculum20.adapter
+package com.example.curriculum20.model.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.curriculum20.R
-import com.example.curriculum20.databinding.IitemLenguajesBinding
 import com.example.curriculum20.databinding.ItemProyectosBinding
 import com.squareup.picasso.Picasso
 

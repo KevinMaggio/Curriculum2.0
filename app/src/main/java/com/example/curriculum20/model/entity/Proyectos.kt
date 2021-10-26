@@ -1,4 +1,4 @@
-package com.example.curriculum20.data
+package com.example.curriculum20.model.entity
 
 class Proyectos {
     private val listaFotosSomosMas = listOf<String>(   "https://i.ibb.co/7WMfSzw/Whats-App-Image-2021-10-23-at-16-43-47-9.jpg",

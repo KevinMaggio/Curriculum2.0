@@ -1,4 +1,4 @@
-package com.example.curriculum20.UI
+package com.example.curriculum20.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,11 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.curriculum20.R
-import com.example.curriculum20.adapter.LenguajesAdapter
-import com.example.curriculum20.adapter.TecnologiasAdapter
-import com.example.curriculum20.data.Lengueajes
-import com.example.curriculum20.data.Tecnologias
+import com.example.curriculum20.model.adapter.LenguajesAdapter
+import com.example.curriculum20.model.adapter.TecnologiasAdapter
+import com.example.curriculum20.model.entity.Lengueajes
+import com.example.curriculum20.model.entity.Tecnologias
 import com.example.curriculum20.databinding.FragmentCurriculumBinding
 
 

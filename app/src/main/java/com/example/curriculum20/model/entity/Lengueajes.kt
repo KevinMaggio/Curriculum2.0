@@ -1,4 +1,4 @@
-package com.example.curriculum20.data
+package com.example.curriculum20.model.entity
 
 class Lengueajes {
 
