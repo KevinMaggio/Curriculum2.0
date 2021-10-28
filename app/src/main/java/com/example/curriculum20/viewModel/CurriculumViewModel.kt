@@ -1,4 +1,6 @@
 package com.example.curriculum20.viewModel
 
-class CurriculumViewModel {
+import androidx.lifecycle.ViewModel
+
+class CurriculumViewModel :ViewModel(){
 }
