@@ -235,7 +235,7 @@
             android:layout_height="50dp"
             android:layout_margin="30dp"
             android:background="@drawable/bt_circle"
-            android:text="@string/tv_mas_sobre_mi"
+            android:text="@string/tv_mas_sobre_mi_2"
             android:textColor="@color/white"
             android:textSize="17sp"
             android:textStyle="bold"

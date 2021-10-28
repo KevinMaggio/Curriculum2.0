@@ -23,20 +23,20 @@
     <string name="tv_calculos_de_obra">Calculos de obra</string>
     <string name="tv_que_comer">Que Comer</string>
     <!-- Strings used for sobre mi -->
-    <string name="tv_kevin_maggio">Kevin Maggio</string>
-    <string name="tv_desarrollador_android">Desarrollador Android</string>
+    <string name="tv_kevin_maggio_sobre_mi">Kevin Maggio</string>
+    <string name="tv_desarrollador_android_sobre_mi">Desarrollador Android</string>
     <string name="tv_kevinmaggio57_gmail_com">KevinMaggio57@gmail.com</string>
     <string name="tv_descripcion">Tengo 30 años, me apasiona la programación, tengo facilidad de aprendizaje, soy puntual y cuento con un buen acoplamiento a equipos de trabajo</string>
     <string name="tv_educacion">EDUCACION</string>
     <string name="tv_escuela">Escuela de Educacion Tecnica Nº1</string>
     <string name="tv_marzo_2007_diciembre_2010">Marzo 2007 - Diciembre 2010</string>
     <string name="tv_cualidades_y_habilidades">CUALIDADES Y HABILIDADES</string>
-    <string name="tv_mas_sobre_mi">MAS SOBRE MI</string>
+    <string name="tv_mas_sobre_mi_2">MAS SOBRE MI</string>
     <!-- Strings used for menu -->
     <string name="tv_item_nombre">Kevin Maggio</string>
-    <string name="tv_desarrollador_android">Desarrollador Android</string>
-    <string name="tv_java">Java</string>
-    <string name="tv_item_tecnologias">Retrofit2</string>
+    <string name="tv_desarrollador_android_menu">Desarrollador Android</string>
+    <string name="tv_java_menu">Java</string>
+    <string name="tv_item_tecnologias_menu">Retrofit2</string>
 
 
 </resources>

@@ -1,6 +1,11 @@
 package com.example.curriculum20.viewModel
 
-class GaleriaViewModel {
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+
+class GaleriaViewModel: ViewModel() {
+    var datos = MutableLiveData<String>()
 
 
 
